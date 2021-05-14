@@ -1,0 +1,78 @@
+.modal {
+  position: fixed;
+  z-index: 3;
+  min-width: 230px;
+  max-width: 315px;
+  height: 300px;
+  width: 100%;
+  background: #f4f4f4;
+  text-align: left;
+  line-height: 1.4em;
+  border-radius: 5%;
+  box-shadow: 0 0 0 1px #e4e4e4;
+  margin: 1rem;
+
+  /* modal stuff */
+
+  padding: 0 25px;
+  position: absolute;
+  left: calc(50% - 200px);
+  top: 20%;
+  border-radius: 4px;
+  z-index: 999;
+  pointer-events: auto;
+  cursor: auto;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.6);
+}
+
+.modalContainer {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  pointer-events: none;
+  opacity: 1;
+}
+
+.modal-input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.modal-button {
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 10px 0;
+  display: inline-block;
+  opacity: 0.65;
+  width: 47%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.modal-button:hover {
+  opacity: 1;
+}
+
+.modal-close {
+  background: #333;
+  color: #fff;
+  margin-right: 7px;
+}
+
+.modal-edit {
+  background: #fff;
+  color: #000;
+  margin-left: 7px;
+}
+.hide {
+  display: hidden;
+}

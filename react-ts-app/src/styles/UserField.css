@@ -1,0 +1,133 @@
+.twoToneCard {
+  position: relative;
+  overflow: hidden;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  border-radius: 5%;
+  box-shadow: 0 0 0 1px #ffffffa6;
+  margin: 1rem;
+  animation: cardFade 1s;
+}
+
+@keyframes cardFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+div .top {
+  height: 10rem;
+  background: #555555;
+  vertical-align: top;
+  opacity: 0.85;
+  box-shadow: 0 0 0 2px #121212;
+}
+.twoToneCard .bottom {
+  width: 100%;
+  background-color: #141414;
+  padding: 25px;
+  position: relative;
+}
+
+.twoToneCard .bottom:before {
+  position: absolute;
+  content: "";
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 400px;
+  border-color: transparent transparent transparent #141414;
+}
+.twoToneCard .bottom span {
+  opacity: 0.65;
+  padding: 5px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 10px 0;
+  display: inline-block;
+  width: 47%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.twoToneCard .profile {
+  position: absolute;
+  bottom: 40%;
+  left: 25px;
+  margin: 1rem 0;
+  max-height: 100px;
+  border-radius: 50%;
+  opacity: 1;
+  z-index: 2;
+  box-shadow: 0 0 0 1px #f4f4f4;
+}
+
+.twoToneCard div .email {
+  margin-right: 4%;
+  border-color: #37afff;
+  color: #37afff;
+}
+.twoToneCard div .copied {
+  opacity: 1;
+  margin-right: 4%;
+  color: #141414;
+  background-color: #37afff;
+}
+.twoToneCard div .edit {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.twoToneCard div .email:hover {
+  opacity: 1;
+}
+.twoToneCard div .edit:hover {
+  opacity: 1;
+}
+
+.twoToneCard h2 {
+  position: absolute;
+  bottom: 50%;
+  right: 0px;
+  width: 10rem;
+  z-index: 2;
+  padding: 0 25px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.twoToneCard h2 span {
+  display: block;
+  font-size: 0.5em;
+  color: #ffffff;
+}
+
+@media (max-width: 500px) {
+  .twoToneCard h2 {
+    padding: 0 25px 0 50px;
+  }
+}
+.twoToneCard p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
