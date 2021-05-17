@@ -30,10 +30,11 @@ const mocks = [
 ];
 describe("<Modal/>", () => {
   it("Modal rendered AND EDIT_USER Mutation is working", () => {
-    render(
+    const modal = render(
       <MockedProvider mocks={mocks}>
         <Modal {...defaultProps} />
       </MockedProvider>
     );
+    expect(modal).toMatchSnapshot();
   });
 });

@@ -28,10 +28,11 @@ const mocks = [
 ];
 describe("<App/>", () => {
   it("App rendered AND GET_USERS Request is working", () => {
-    render(
+    const app = render(
       <MockedProvider mocks={mocks}>
         <App />
       </MockedProvider>
     );
+    expect(app).toMatchSnapshot();
   });
 });

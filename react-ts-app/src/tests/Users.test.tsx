@@ -19,6 +19,7 @@ const defaultProps: Props = {
 };
 describe("<Users/>", () => {
   it("Users rendered", () => {
-    render(<Users {...defaultProps} />);
+    const users = render(<Users {...defaultProps} />);
+    expect(users).toMatchSnapshot();
   });
 });

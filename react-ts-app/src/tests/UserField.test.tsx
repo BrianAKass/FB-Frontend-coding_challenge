@@ -18,6 +18,7 @@ const defaultProps = {
 
 describe("<UserField/>", () => {
   it("UserField rendered", () => {
-    render(<UserField {...defaultProps} />);
+    const userField = render(<UserField {...defaultProps} />);
+    expect(userField).toMatchSnapshot();
   });
 });

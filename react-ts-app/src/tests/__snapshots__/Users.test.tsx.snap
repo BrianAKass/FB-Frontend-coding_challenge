@@ -1,0 +1,1020 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Users/> Users rendered 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container"
+      >
+        <div
+          class="flex-box"
+        >
+          <div
+            class="twoToneCard"
+          >
+            <div
+              class="top"
+            />
+            <img
+              alt="profile-pic"
+              class="profile"
+              src="https://randomuser.me/api/portraits/men/71.jpg"
+            />
+            <h2>
+              <span>
+                Mr
+              </span>
+              Emilio
+               
+              Alvarez
+            </h2>
+            <div
+              class="bottom"
+            >
+              <span
+                class="email"
+                data-placement="left"
+                data-toggle="tooltip"
+                title="Copy Email: emilio.alvarez@example.com to clipboard"
+              >
+                <i
+                  class="fas fa-envelope"
+                />
+                 
+                Email
+              </span>
+              <span
+                class="edit"
+                data-placement="right"
+                data-toggle="tooltip"
+                title="Edit User Data"
+              >
+                <i
+                  class="fas fa-edit"
+                />
+                 Edit
+              </span>
+            </div>
+          </div>
+          <div
+            class="twoToneCard"
+          >
+            <div
+              class="top"
+            />
+            <img
+              alt="profile-pic"
+              class="profile"
+              src="https://randomuser.me/api/portraits/men/26.jpg"
+            />
+            <h2>
+              <span>
+                Mr
+              </span>
+              Önal
+               
+              Tekand
+            </h2>
+            <div
+              class="bottom"
+            >
+              <span
+                class="email"
+                data-placement="left"
+                data-toggle="tooltip"
+                title="Copy Email: onal.tekand@example.com to clipboard"
+              >
+                <i
+                  class="fas fa-envelope"
+                />
+                 
+                Email
+              </span>
+              <span
+                class="edit"
+                data-placement="right"
+                data-toggle="tooltip"
+                title="Edit User Data"
+              >
+                <i
+                  class="fas fa-edit"
+                />
+                 Edit
+              </span>
+            </div>
+          </div>
+          <div
+            class="twoToneCard"
+          >
+            <div
+              class="top"
+            />
+            <img
+              alt="profile-pic"
+              class="profile"
+              src="https://randomuser.me/api/portraits/men/36.jpg"
+            />
+            <h2>
+              <span>
+                Mr
+              </span>
+              Victor
+               
+              Carpentier
+            </h2>
+            <div
+              class="bottom"
+            >
+              <span
+                class="email"
+                data-placement="left"
+                data-toggle="tooltip"
+                title="Copy Email: victor.carpentier@example.com to clipboard"
+              >
+                <i
+                  class="fas fa-envelope"
+                />
+                 
+                Email
+              </span>
+              <span
+                class="edit"
+                data-placement="right"
+                data-toggle="tooltip"
+                title="Edit User Data"
+              >
+                <i
+                  class="fas fa-edit"
+                />
+                 Edit
+              </span>
+            </div>
+          </div>
+          <div
+            class="twoToneCard"
+          >
+            <div
+              class="top"
+            />
+            <img
+              alt="profile-pic"
+              class="profile"
+              src="https://randomuser.me/api/portraits/men/12.jpg"
+            />
+            <h2>
+              <span>
+                Mr
+              </span>
+              Vedat
+               
+              Abacı
+            </h2>
+            <div
+              class="bottom"
+            >
+              <span
+                class="email"
+                data-placement="left"
+                data-toggle="tooltip"
+                title="Copy Email: vedat.abaci@example.com to clipboard"
+              >
+                <i
+                  class="fas fa-envelope"
+                />
+                 
+                Email
+              </span>
+              <span
+                class="edit"
+                data-placement="right"
+                data-toggle="tooltip"
+                title="Edit User Data"
+              >
+                <i
+                  class="fas fa-edit"
+                />
+                 Edit
+              </span>
+            </div>
+          </div>
+          <div
+            class="twoToneCard"
+          >
+            <div
+              class="top"
+            />
+            <img
+              alt="profile-pic"
+              class="profile"
+              src="https://randomuser.me/api/portraits/women/40.jpg"
+            />
+            <h2>
+              <span>
+                Mrs
+              </span>
+              Paula
+               
+              Matthews
+            </h2>
+            <div
+              class="bottom"
+            >
+              <span
+                class="email"
+                data-placement="left"
+                data-toggle="tooltip"
+                title="Copy Email: paula.matthews@example.com to clipboard"
+              >
+                <i
+                  class="fas fa-envelope"
+                />
+                 
+                Email
+              </span>
+              <span
+                class="edit"
+                data-placement="right"
+                data-toggle="tooltip"
+                title="Edit User Data"
+              >
+                <i
+                  class="fas fa-edit"
+                />
+                 Edit
+              </span>
+            </div>
+          </div>
+          <div
+            class="twoToneCard"
+          >
+            <div
+              class="top"
+            />
+            <img
+              alt="profile-pic"
+              class="profile"
+              src="https://randomuser.me/api/portraits/women/22.jpg"
+            />
+            <h2>
+              <span>
+                Ms
+              </span>
+              Nicole
+               
+              Little
+            </h2>
+            <div
+              class="bottom"
+            >
+              <span
+                class="email"
+                data-placement="left"
+                data-toggle="tooltip"
+                title="Copy Email: nicole.little@example.com to clipboard"
+              >
+                <i
+                  class="fas fa-envelope"
+                />
+                 
+                Email
+              </span>
+              <span
+                class="edit"
+                data-placement="right"
+                data-toggle="tooltip"
+                title="Edit User Data"
+              >
+                <i
+                  class="fas fa-edit"
+                />
+                 Edit
+              </span>
+            </div>
+          </div>
+          <div
+            class="twoToneCard"
+          >
+            <div
+              class="top"
+            />
+            <img
+              alt="profile-pic"
+              class="profile"
+              src="https://randomuser.me/api/portraits/women/41.jpg"
+            />
+            <h2>
+              <span>
+                Mrs
+              </span>
+              Anna
+               
+              Rivera
+            </h2>
+            <div
+              class="bottom"
+            >
+              <span
+                class="email"
+                data-placement="left"
+                data-toggle="tooltip"
+                title="Copy Email: anna.rivera@example.com to clipboard"
+              >
+                <i
+                  class="fas fa-envelope"
+                />
+                 
+                Email
+              </span>
+              <span
+                class="edit"
+                data-placement="right"
+                data-toggle="tooltip"
+                title="Edit User Data"
+              >
+                <i
+                  class="fas fa-edit"
+                />
+                 Edit
+              </span>
+            </div>
+          </div>
+          <div
+            class="twoToneCard"
+          >
+            <div
+              class="top"
+            />
+            <img
+              alt="profile-pic"
+              class="profile"
+              src="https://randomuser.me/api/portraits/men/83.jpg"
+            />
+            <h2>
+              <span>
+                Mr
+              </span>
+              Noe
+               
+              Martinez
+            </h2>
+            <div
+              class="bottom"
+            >
+              <span
+                class="email"
+                data-placement="left"
+                data-toggle="tooltip"
+                title="Copy Email: noe.martinez@example.com to clipboard"
+              >
+                <i
+                  class="fas fa-envelope"
+                />
+                 
+                Email
+              </span>
+              <span
+                class="edit"
+                data-placement="right"
+                data-toggle="tooltip"
+                title="Edit User Data"
+              >
+                <i
+                  class="fas fa-edit"
+                />
+                 Edit
+              </span>
+            </div>
+          </div>
+          <div
+            class="twoToneCard"
+          >
+            <div
+              class="top"
+            />
+            <img
+              alt="profile-pic"
+              class="profile"
+              src="https://randomuser.me/api/portraits/women/72.jpg"
+            />
+            <h2>
+              <span>
+                Miss
+              </span>
+              Lina
+               
+              Fleury
+            </h2>
+            <div
+              class="bottom"
+            >
+              <span
+                class="email"
+                data-placement="left"
+                data-toggle="tooltip"
+                title="Copy Email: lina.fleury@example.com to clipboard"
+              >
+                <i
+                  class="fas fa-envelope"
+                />
+                 
+                Email
+              </span>
+              <span
+                class="edit"
+                data-placement="right"
+                data-toggle="tooltip"
+                title="Edit User Data"
+              >
+                <i
+                  class="fas fa-edit"
+                />
+                 Edit
+              </span>
+            </div>
+          </div>
+          <div
+            class="twoToneCard"
+          >
+            <div
+              class="top"
+            />
+            <img
+              alt="profile-pic"
+              class="profile"
+              src="https://randomuser.me/api/portraits/women/27.jpg"
+            />
+            <h2>
+              <span>
+                Mrs
+              </span>
+              Lillian
+               
+              Banks
+            </h2>
+            <div
+              class="bottom"
+            >
+              <span
+                class="email"
+                data-placement="left"
+                data-toggle="tooltip"
+                title="Copy Email: lillian.banks@example.com to clipboard"
+              >
+                <i
+                  class="fas fa-envelope"
+                />
+                 
+                Email
+              </span>
+              <span
+                class="edit"
+                data-placement="right"
+                data-toggle="tooltip"
+                title="Edit User Data"
+              >
+                <i
+                  class="fas fa-edit"
+                />
+                 Edit
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container"
+    >
+      <div
+        class="flex-box"
+      >
+        <div
+          class="twoToneCard"
+        >
+          <div
+            class="top"
+          />
+          <img
+            alt="profile-pic"
+            class="profile"
+            src="https://randomuser.me/api/portraits/men/71.jpg"
+          />
+          <h2>
+            <span>
+              Mr
+            </span>
+            Emilio
+             
+            Alvarez
+          </h2>
+          <div
+            class="bottom"
+          >
+            <span
+              class="email"
+              data-placement="left"
+              data-toggle="tooltip"
+              title="Copy Email: emilio.alvarez@example.com to clipboard"
+            >
+              <i
+                class="fas fa-envelope"
+              />
+               
+              Email
+            </span>
+            <span
+              class="edit"
+              data-placement="right"
+              data-toggle="tooltip"
+              title="Edit User Data"
+            >
+              <i
+                class="fas fa-edit"
+              />
+               Edit
+            </span>
+          </div>
+        </div>
+        <div
+          class="twoToneCard"
+        >
+          <div
+            class="top"
+          />
+          <img
+            alt="profile-pic"
+            class="profile"
+            src="https://randomuser.me/api/portraits/men/26.jpg"
+          />
+          <h2>
+            <span>
+              Mr
+            </span>
+            Önal
+             
+            Tekand
+          </h2>
+          <div
+            class="bottom"
+          >
+            <span
+              class="email"
+              data-placement="left"
+              data-toggle="tooltip"
+              title="Copy Email: onal.tekand@example.com to clipboard"
+            >
+              <i
+                class="fas fa-envelope"
+              />
+               
+              Email
+            </span>
+            <span
+              class="edit"
+              data-placement="right"
+              data-toggle="tooltip"
+              title="Edit User Data"
+            >
+              <i
+                class="fas fa-edit"
+              />
+               Edit
+            </span>
+          </div>
+        </div>
+        <div
+          class="twoToneCard"
+        >
+          <div
+            class="top"
+          />
+          <img
+            alt="profile-pic"
+            class="profile"
+            src="https://randomuser.me/api/portraits/men/36.jpg"
+          />
+          <h2>
+            <span>
+              Mr
+            </span>
+            Victor
+             
+            Carpentier
+          </h2>
+          <div
+            class="bottom"
+          >
+            <span
+              class="email"
+              data-placement="left"
+              data-toggle="tooltip"
+              title="Copy Email: victor.carpentier@example.com to clipboard"
+            >
+              <i
+                class="fas fa-envelope"
+              />
+               
+              Email
+            </span>
+            <span
+              class="edit"
+              data-placement="right"
+              data-toggle="tooltip"
+              title="Edit User Data"
+            >
+              <i
+                class="fas fa-edit"
+              />
+               Edit
+            </span>
+          </div>
+        </div>
+        <div
+          class="twoToneCard"
+        >
+          <div
+            class="top"
+          />
+          <img
+            alt="profile-pic"
+            class="profile"
+            src="https://randomuser.me/api/portraits/men/12.jpg"
+          />
+          <h2>
+            <span>
+              Mr
+            </span>
+            Vedat
+             
+            Abacı
+          </h2>
+          <div
+            class="bottom"
+          >
+            <span
+              class="email"
+              data-placement="left"
+              data-toggle="tooltip"
+              title="Copy Email: vedat.abaci@example.com to clipboard"
+            >
+              <i
+                class="fas fa-envelope"
+              />
+               
+              Email
+            </span>
+            <span
+              class="edit"
+              data-placement="right"
+              data-toggle="tooltip"
+              title="Edit User Data"
+            >
+              <i
+                class="fas fa-edit"
+              />
+               Edit
+            </span>
+          </div>
+        </div>
+        <div
+          class="twoToneCard"
+        >
+          <div
+            class="top"
+          />
+          <img
+            alt="profile-pic"
+            class="profile"
+            src="https://randomuser.me/api/portraits/women/40.jpg"
+          />
+          <h2>
+            <span>
+              Mrs
+            </span>
+            Paula
+             
+            Matthews
+          </h2>
+          <div
+            class="bottom"
+          >
+            <span
+              class="email"
+              data-placement="left"
+              data-toggle="tooltip"
+              title="Copy Email: paula.matthews@example.com to clipboard"
+            >
+              <i
+                class="fas fa-envelope"
+              />
+               
+              Email
+            </span>
+            <span
+              class="edit"
+              data-placement="right"
+              data-toggle="tooltip"
+              title="Edit User Data"
+            >
+              <i
+                class="fas fa-edit"
+              />
+               Edit
+            </span>
+          </div>
+        </div>
+        <div
+          class="twoToneCard"
+        >
+          <div
+            class="top"
+          />
+          <img
+            alt="profile-pic"
+            class="profile"
+            src="https://randomuser.me/api/portraits/women/22.jpg"
+          />
+          <h2>
+            <span>
+              Ms
+            </span>
+            Nicole
+             
+            Little
+          </h2>
+          <div
+            class="bottom"
+          >
+            <span
+              class="email"
+              data-placement="left"
+              data-toggle="tooltip"
+              title="Copy Email: nicole.little@example.com to clipboard"
+            >
+              <i
+                class="fas fa-envelope"
+              />
+               
+              Email
+            </span>
+            <span
+              class="edit"
+              data-placement="right"
+              data-toggle="tooltip"
+              title="Edit User Data"
+            >
+              <i
+                class="fas fa-edit"
+              />
+               Edit
+            </span>
+          </div>
+        </div>
+        <div
+          class="twoToneCard"
+        >
+          <div
+            class="top"
+          />
+          <img
+            alt="profile-pic"
+            class="profile"
+            src="https://randomuser.me/api/portraits/women/41.jpg"
+          />
+          <h2>
+            <span>
+              Mrs
+            </span>
+            Anna
+             
+            Rivera
+          </h2>
+          <div
+            class="bottom"
+          >
+            <span
+              class="email"
+              data-placement="left"
+              data-toggle="tooltip"
+              title="Copy Email: anna.rivera@example.com to clipboard"
+            >
+              <i
+                class="fas fa-envelope"
+              />
+               
+              Email
+            </span>
+            <span
+              class="edit"
+              data-placement="right"
+              data-toggle="tooltip"
+              title="Edit User Data"
+            >
+              <i
+                class="fas fa-edit"
+              />
+               Edit
+            </span>
+          </div>
+        </div>
+        <div
+          class="twoToneCard"
+        >
+          <div
+            class="top"
+          />
+          <img
+            alt="profile-pic"
+            class="profile"
+            src="https://randomuser.me/api/portraits/men/83.jpg"
+          />
+          <h2>
+            <span>
+              Mr
+            </span>
+            Noe
+             
+            Martinez
+          </h2>
+          <div
+            class="bottom"
+          >
+            <span
+              class="email"
+              data-placement="left"
+              data-toggle="tooltip"
+              title="Copy Email: noe.martinez@example.com to clipboard"
+            >
+              <i
+                class="fas fa-envelope"
+              />
+               
+              Email
+            </span>
+            <span
+              class="edit"
+              data-placement="right"
+              data-toggle="tooltip"
+              title="Edit User Data"
+            >
+              <i
+                class="fas fa-edit"
+              />
+               Edit
+            </span>
+          </div>
+        </div>
+        <div
+          class="twoToneCard"
+        >
+          <div
+            class="top"
+          />
+          <img
+            alt="profile-pic"
+            class="profile"
+            src="https://randomuser.me/api/portraits/women/72.jpg"
+          />
+          <h2>
+            <span>
+              Miss
+            </span>
+            Lina
+             
+            Fleury
+          </h2>
+          <div
+            class="bottom"
+          >
+            <span
+              class="email"
+              data-placement="left"
+              data-toggle="tooltip"
+              title="Copy Email: lina.fleury@example.com to clipboard"
+            >
+              <i
+                class="fas fa-envelope"
+              />
+               
+              Email
+            </span>
+            <span
+              class="edit"
+              data-placement="right"
+              data-toggle="tooltip"
+              title="Edit User Data"
+            >
+              <i
+                class="fas fa-edit"
+              />
+               Edit
+            </span>
+          </div>
+        </div>
+        <div
+          class="twoToneCard"
+        >
+          <div
+            class="top"
+          />
+          <img
+            alt="profile-pic"
+            class="profile"
+            src="https://randomuser.me/api/portraits/women/27.jpg"
+          />
+          <h2>
+            <span>
+              Mrs
+            </span>
+            Lillian
+             
+            Banks
+          </h2>
+          <div
+            class="bottom"
+          >
+            <span
+              class="email"
+              data-placement="left"
+              data-toggle="tooltip"
+              title="Copy Email: lillian.banks@example.com to clipboard"
+            >
+              <i
+                class="fas fa-envelope"
+              />
+               
+              Email
+            </span>
+            <span
+              class="edit"
+              data-placement="right"
+              data-toggle="tooltip"
+              title="Edit User Data"
+            >
+              <i
+                class="fas fa-edit"
+              />
+               Edit
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
