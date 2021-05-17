@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { MockedProvider } from "@apollo/client/testing";
 import Modal, { EDIT_PERSON } from "../components/Modal";
-import { testPeople } from "./testpeople";
+import { testPeople } from "./Testpeople";
 
 const testFunction = () => console.log("testing");
 const mocks = [

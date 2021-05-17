@@ -12,7 +12,7 @@ This project contains my react app as well as the backend repository I downloade
 
 ### `git clone the url`
 
-    git clone
+    git clone https://github.com/BrianAKass/FB-Frontend-coding_challenge.git
 
 ### `install backend and run it`
 
@@ -33,4 +33,5 @@ This project contains my react app as well as the backend repository I downloade
 #
 
 Search Bar searches names (title, first and last) as well as the email field. if for example you search "Mr" and 'Mrs' still shows up thats giving you the email! Which can be copied the the clipboard at the push of a button! This was my first time using GQL/Apollo and I can see the appeal. Hope you enjoy this little project.
+
 # FB-Frontend-coding_challenge
