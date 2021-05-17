@@ -1,5 +1,4 @@
 import { ReactElement } from "react";
-
 import "../styles/Navbar.css";
 
 interface Props {

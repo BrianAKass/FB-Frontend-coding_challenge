@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import Users from "./components/Users";
 import Navbar from "./components/Navbar";
 import "./App.css";
-import { gql, useMutation, useQuery } from "@apollo/client";
-const GET_USERS = gql`
+import { gql, useQuery } from "@apollo/client";
+export const GET_USERS = gql`
   query Person {
     people {
       email
@@ -21,22 +21,8 @@ const GET_USERS = gql`
   }
 `;
 
-const EDIT_PERSON = gql`
-  mutation UpdatePerson($email: String!, $payload: EditPerson) {
-    editPerson(email: $email, payload: $payload) {
-      email
-      name {
-        title
-        first
-        last
-      }
-    }
-  }
-`;
-
 function App() {
   const { loading, error, data } = useQuery(GET_USERS);
-  const [updateData] = useMutation(EDIT_PERSON);
   const [state, setState] = useState({
     data: data,
     open: false,
@@ -108,7 +94,6 @@ function App() {
         data={filterPeople}
         handleOpen={handleOpen}
         handleModal={handleModal}
-        updateData={updateData}
         open={state.open}
         modal={state.modal}
       />

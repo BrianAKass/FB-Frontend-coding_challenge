@@ -9,7 +9,6 @@ interface Props {
   last?: string;
   picture?: string;
   email?: string;
-  edit?: Function;
   handleOpen: Function;
   handleModal: Function;
 }
@@ -20,7 +19,6 @@ export default function UserField({
   last,
   picture,
   email,
-  edit,
   handleOpen,
   handleModal,
 }: Props): ReactElement {

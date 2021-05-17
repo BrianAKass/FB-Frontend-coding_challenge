@@ -2,7 +2,7 @@ import React, { ReactElement, useState } from "react";
 import { gql, useMutation } from "@apollo/client";
 import "../styles/Modal.css";
 
-const EDIT_PERSON = gql`
+export const EDIT_PERSON = gql`
   mutation UpdatePerson($email: String!, $payload: EditPerson) {
     editPerson(email: $email, payload: $payload) {
       email
@@ -19,9 +19,7 @@ interface Props {
   title?: string;
   first?: string;
   last?: string;
-
   email?: string;
-  edit?: Function;
   handleOpen: Function;
 }
 
@@ -30,7 +28,6 @@ export default function Modal({
   first,
   last,
   email,
-
   handleOpen,
 }: Props): ReactElement {
   const initialState = {

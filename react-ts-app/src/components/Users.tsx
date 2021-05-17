@@ -8,7 +8,6 @@ interface Props {
   open?: boolean;
   handleOpen: Function;
   handleModal: Function;
-  updateData: Function;
 }
 
 export default function Users({
@@ -17,7 +16,6 @@ export default function Users({
   open,
   handleOpen,
   handleModal,
-  updateData,
 }: Props): ReactElement {
   return (
     <div>
@@ -31,7 +29,6 @@ export default function Users({
               last={item.name.last}
               email={item.email}
               picture={item.picture.large}
-              edit={updateData}
               handleOpen={handleOpen}
               handleModal={handleModal}
             />
