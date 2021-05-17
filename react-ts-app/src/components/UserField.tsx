@@ -3,7 +3,7 @@ import { setTimeout } from "timers";
 
 import "../styles/UserField.css";
 
-interface Props {
+export interface Props {
   title?: string;
   first?: string;
   last?: string;

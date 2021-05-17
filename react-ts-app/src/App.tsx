@@ -84,14 +84,9 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar
-        search={state.search}
-        handleSearch={handleSearch}
-        clearSearch={clearSearch}
-      />
+      <Navbar handleSearch={handleSearch} clearSearch={clearSearch} />
       <Users
-        // data={state.data.people}
-        data={filterPeople}
+        data={filterPeople()}
         handleOpen={handleOpen}
         handleModal={handleModal}
         open={state.open}

@@ -1,9 +1,17 @@
-import { render, screen } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import { MockedProvider } from "@apollo/client/testing";
-import Modal, { EDIT_PERSON } from "../components/Modal";
+import Modal, { Props, EDIT_PERSON } from "../components/Modal";
 import { testPeople } from "./Testpeople";
 
-const testFunction = () => console.log("testing");
+const defaultProps: Props = {
+  title: testPeople[0].name.title,
+  first: testPeople[0].name.first,
+  last: testPeople[0].name.last,
+  email: testPeople[0].email,
+  handleOpen() {
+    return;
+  },
+};
 const mocks = [
   {
     request: {
@@ -24,13 +32,7 @@ describe("<Modal/>", () => {
   it("Modal rendered AND EDIT_USER Mutation is working", () => {
     render(
       <MockedProvider mocks={mocks}>
-        <Modal
-          title={testPeople[0].name.title}
-          first={testPeople[0].name.first}
-          last={testPeople[0].name.last}
-          email={testPeople[0].email}
-          handleOpen={() => testFunction}
-        />
+        <Modal {...defaultProps} />
       </MockedProvider>
     );
   });

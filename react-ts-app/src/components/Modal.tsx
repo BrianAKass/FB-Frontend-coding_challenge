@@ -15,7 +15,7 @@ export const EDIT_PERSON = gql`
   }
 `;
 
-interface Props {
+export interface Props {
   title?: string;
   first?: string;
   last?: string;
